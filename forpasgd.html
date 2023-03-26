@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./forpasgd.css">
+    
+    <title>Login/Sign-Up</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Log-In into your account</h1>
+                    <div class="social-container">
+                        <a href="#" >
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#" >
+                            <i class="fab fa-google"></i>
+                        </a>
+
+                        <a href="#" >
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+                    </div>
+                    <span> Use your email for registration </span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email"/>
+                    <!-- <input type="password" placeholder="Password"> -->
+                    <input type="date" placeholder="Birth-date">
+                    <!-- <input type="date" id="birth-date" name="birth-date" placeholder="YYYY-MM-DD"> -->
+
+
+                    <br />
+                    <button> Log-In Without Password </button>
+                </form>
+        </div>
+        <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1> Change Password</h1>
+                    <div class="social-container">
+                        <a href="#" >
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#" >
+                            <i class="fab fa-google"></i>
+                        </a>
+
+                        <a href="#" >
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+                    </div>
+
+                    <span> Change Password </span>
+                    <input type="email" placeholder="Email"/>
+                    <input type="password" placeholder="new-password">
+                    <!-- <a href="C:\Users\91820\Desktop\College\Sem-6\Human Computer Interaction\Final Project\Blogger\forpass.html">Forgot your password?</a> -->
+                    <button> Change Password </button>
+                </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1> Log-in Without Password</h1>
+                    <p> Set it up with another google account</p>
+                    <button class="ghost"  id="signIn"> Sign In</button>                    
+                </div>
+
+                <div class="overlay-panel overlay-right">
+                    <h1> Create new password</h1>
+                    <p> Enter your personal details </p>
+                    <button class="ghost" id="signUp"> Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./forpasgd.js"> </script>
+</body>
+</html>

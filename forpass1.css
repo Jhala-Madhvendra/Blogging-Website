@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('./Photos/Background-image.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.form-container {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 50px;
+	padding: 30px;
+	width: 400px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	border-radius: 5px;
+	border: lemonchiffon;
+    background-color: #E6F4F1; /* add your preferred highlight color here */
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.submit-button {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.submit-button:hover {
+	background-color: #3e8e41;
+}
+
+@media screen and (max-width: 480px) {
+	.form-container {
+		width: 90%;
+	}
+}

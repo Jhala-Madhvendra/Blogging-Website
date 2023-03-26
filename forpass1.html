@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forgot Password and Reset Password</title>
+	<link rel="stylesheet" href="forpass1.css">
+</head>
+<body>
+	<div class="background-image"></div>
+	<div class="container">
+		<div class="form-container">
+			<form id="forgot-password-form">
+				<h1>Forgot Password</h1>
+				<p>Enter your email address and we'll send you a link to reset your password.</p>
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" id="email" required>
+				<button type="submit" class="submit-button">Submit</button>
+			</form>
+		</div>
+		<div class="form-container">
+			<form id="reset-password-form">
+				<h1>Reset Password</h1>
+				<p>Please enter your new password below.</p>
+				<label for="password"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="password" id="password" required>
+				<label for="confirm-password"><b>Confirm Password</b></label>
+				<input type="password" placeholder="Confirm Password" name="confirm-password" id="confirm-password" required>
+				<button type="submit" class="submit-button">Submit</button>
+			</form>
+		</div>
+	</div>
+	<script src="forpass1.js"></script>
+</body>
+</html>
